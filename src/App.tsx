@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
-import { Shield, Phone, Mail, Globe, Eye, Lock, Zap, Star, ArrowRight, CheckCircle } from 'lucide-react'
+import { Shield, Phone, Mail, Globe, Eye, Lock, Zap, Star, ArrowRight, CheckCircle, Copy, RefreshCw, Timer, Users } from 'lucide-react'
 import { Button } from './components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card'
+import { useState, useEffect } from 'react'
 
 function App() {
   const services = [
